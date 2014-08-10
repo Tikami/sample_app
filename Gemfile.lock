@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://ruby.taobao.org/
   specs:
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
@@ -47,6 +47,11 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.1)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.0)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.3)
     hike (1.2.3)
     i18n (0.6.11)
@@ -146,6 +151,7 @@ DEPENDENCIES
   bootstrap-sass (= 2.1)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
+  factory_girl_rails (= 4.2.0)
   jbuilder (= 1.0.2)
   jquery-rails (= 2.2.1)
   pg (= 0.15.1)
