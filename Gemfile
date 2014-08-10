@@ -1,4 +1,4 @@
-source 'https://ruby.taobao.org'
+source 'https://rubygems.org'
 ruby '2.1.2'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass','2.1'
